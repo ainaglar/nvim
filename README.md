@@ -152,3 +152,4 @@ Diagnostics:
 				},
 
 ```
+- 在windows下使用clangd的时候，需要下载llvm官方编译好的文件，然后将clangd启动项的cmd命令修改为你的clangd.exe的启动路径，否则会出现无法解析标准库的问题
